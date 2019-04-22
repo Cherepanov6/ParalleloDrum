@@ -1,0 +1,6 @@
+<Limit GET POST>
+	require valid-user
+</Limit>
+AuthType Basic
+AuthName "webstat"
+AuthUserFile /home/gvgsgdsz/data/etc/parallelodrum.ru.stat.passwd
